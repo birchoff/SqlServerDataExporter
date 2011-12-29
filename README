@@ -1,0 +1,6 @@
+Generates sql file that will do the following
+ 1. Disable all constraints.
+ 2. Disable all triggers.
+ 3. Generate Insert statements foreach table.
+ 4. Enable all triggers
+ 5. Enable all constraints by using "WITH CHECK CHECK CONSTRAINT all" which makes sure all constraints are enabled and still trusted.
